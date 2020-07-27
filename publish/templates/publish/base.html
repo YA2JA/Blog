@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello world</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="static/css/base_template/base.css">
+    <link rel="stylesheet" type="text/css" href="static/css/base_template/homePage.css">
+
+</head>
+<body>
+    <HEADER>
+        <nav>
+            <ul class="nav_links">
+                <li><a class="__tab__" href="#Home">Home</a></li>
+                <li><a class="__tab__" href="#About">About</a></li>
+                <li><a class="__tab__" href="#Merch">Merch</a></li>
+            </ul>
+        </nav>
+    </HEADER>
+    {% block content %}
+    
+    {% endblock %}
+    <FOOTER>
+            <div class="copyright">
+                <p>Maden by Jakob Oganesyan</p>
+            </div>
+    </FOOTER>
+</body>
+</html>

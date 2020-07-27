@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+
+    width: 100%;
+    background: #333;
+    overflow: auto; 
+}
+
+.nav_links
+{
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav_links li
+{ 
+    float: left;
+    margin-left: 25px;
+    padding-top: 4px;
+}
+
+.nav_links li a
+{
+    display: block;
+    padding: 10px;
+    padding-top: 15px;
+    text-decoration: none;
+    background-color: #333;    
+    color: white;
+}
+
+.nav_links li a:hover
+{
+    transition: 1s;
+    background-color:#111;
+    color: white;
+}
+
+.nav_links li a:focus , active ._button_folder_  .active
+{
+    font-size: 20px;
+    background-color:white;
+    color: red;
+}
+
+.nav_links li,  .nav_links a, p
+{
+    font-family: "Epilogue";
+    font-weight: 700;
+}
+
+footer
+{
+    background: #333;
+    margin-left: 20%;
+    bottom: 0;
+    width: 60%;
+}
+
+footer div p
+{
+    padding-top: 5px;
+    text-align: center;
+    color:white;
+    font-size: 24px;
+}
