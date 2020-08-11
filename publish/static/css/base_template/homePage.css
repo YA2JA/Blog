@@ -12,3 +12,13 @@ h1{
     color: #adadad;
     margin-bottom: 50px;
 }
+article div.Space
+{
+    padding-bottom: 600px;
+}
+
+
+div.content p{
+    text-align: center;
+    color: white;
+}

@@ -8,69 +8,78 @@
 
 header
 {
-
     width: 100%;
     background: #333;
     overflow: auto; 
 }
 
-.nav_links
+nav.__navigation__
 {
+    width: 100%;
+    height: 45.98px;
     background-color: #333;
     position: fixed;
-    top: 0;
-    width: 100%;
+    text-align: center;
+}
+
+ul.__buttons__
+{
     list-style-type: none;
 }
 
-.nav_links li
-{ 
-    float: left;
-    margin-left: 25px;
-    padding-top: 4px;
+.__buttons__ li
+{
+    display: inline-block;
+    margin-left: 3%;
+    margin-top:  4px;
+    padding-bottom: 0;
+
 }
 
-.nav_links li a
+.__buttons__ li a
 {
+    transform: font-size 0.2s ease;
     display: block;
     padding: 10px;
-    padding-top: 15px;
+    padding-top: 12px;
     text-decoration: none;
     background-color: #333;    
     color: white;
 }
 
-.nav_links li a:hover
+.__buttons__ li a:hover
 {
     transition: 1s;
     background-color:#111;
     color: white;
 }
 
-.nav_links li a:focus , active ._button_folder_  .active
+.__buttons__ li a:focus
 {
     font-size: 20px;
     background-color:white;
     color: red;
 }
 
-.nav_links li,  .nav_links a, p
+.__buttons__ a, p
 {
     font-family: "Epilogue";
-    font-weight: 700;
+    font-weight: 900;
 }
 
 footer
 {
+    border-radius: 50px 50px 0px 0px;
     background: #333;
     margin-left: 20%;
+    margin-top: 15px;
     bottom: 0;
     width: 60%;
 }
 
 footer div p
 {
-    padding-top: 5px;
+    padding: 10px;
     text-align: center;
     color:white;
     font-size: 24px;

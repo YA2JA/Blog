@@ -4,21 +4,24 @@
     <title>Hello world</title>
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="static/css/base_template/base.css">
-    <link rel="stylesheet" type="text/css" href="static/css/base_template/homePage.css">
-
+    <link rel="shortcut icon" type="image/png" href="static/ico/sun.ico"/>
+    {% block stylesheet %}
+    {% endblock %}
 </head>
 <body>
     <HEADER>
-        <nav>
-            <ul class="nav_links">
-                <li><a class="__tab__" href="#Home">Home</a></li>
-                <li><a class="__tab__" href="#About">About</a></li>
-                <li><a class="__tab__" href="#Merch">Merch</a></li>
+        <nav class="__navigation__">
+            <ul class= "__buttons__">
+                    <li><a class="__tab__" href="home">Home</a></li>
+                    <li><a class="__tab__" href="about">About</a></li>
+                    <li><a class="__tab__" href="merch">Merch</a></li>
+                    <li><a class="__tab__" href="hello">Hello</a></li>
+                    <li><a class="__tab__" href="coucou">Coucou</a></li>
+
             </ul>
         </nav>
     </HEADER>
     {% block content %}
-    
     {% endblock %}
     <FOOTER>
             <div class="copyright">
